@@ -5,18 +5,22 @@
  *   License: Open source - MIT
  *           Please visit http://opensource.org/licenses/MIT for more information
 !*/
-//google fonts
+/**
+ * Google Fonts
+ */
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic);
 
-// //MISC
-// //----
+/**
+ * Base
+ */
 @import "variables";
 @import "core";
 @import "mixins";
 @import "miscellaneous";
 
-// //COMPONENTS
-// //-----------
+/**
+ * Components
+ */
 @import "components/header";
 @import "components/sidebar";
 @import "components/sidebar-mini";
@@ -41,21 +45,24 @@
 @import "components/modal";
 @import "components/social-widgets";
 
-// //PAGES
-// //------
+/**
+ * Pages
+ */
 @import "pages/mailbox";
 @import "pages/lockscreen";
 @import "pages/login_and_register";
 @import "pages/404_500_errors";
 @import "pages/invoice";
 @import "pages/profile";
-// //Plugins
-// //--------
+
+/**
+ * Plugins
+ */
 @import "plugins/bootstrap-social";
 @import "plugins/fullcalendar";
 @import "plugins/select2";
 
-// //Miscellaneous
-// //-------------
+/**
+ * Miscellaneous
+ */
 @import "print";
-@import "skins/all-skins";
