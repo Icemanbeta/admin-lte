@@ -7,13 +7,14 @@
 !*/
 //google fonts
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic);
-@import "../bootstrap/scss/_bootstrap.scss";
+
 // //MISC
 // //----
 @import "variables";
 @import "core";
 @import "mixins";
 @import "miscellaneous";
+
 // //COMPONENTS
 // //-----------
 @import "components/header";
@@ -39,6 +40,7 @@
 @import "components/carousel";
 @import "components/modal";
 @import "components/social-widgets";
+
 // //PAGES
 // //------
 @import "pages/mailbox";
@@ -52,8 +54,8 @@
 @import "plugins/bootstrap-social";
 @import "plugins/fullcalendar";
 @import "plugins/select2";
+
 // //Miscellaneous
 // //-------------
-// @import "miscellaneous.less";
 @import "print";
 @import "skins/all-skins";
